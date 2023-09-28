@@ -1,0 +1,336 @@
+
+.react-calendar{
+    border: none;
+    box-shadow: 0 1px 2px 0 rgb(34 36 38 / 15%);
+    width:400px;
+}
+
+.react-calendar__tile {
+  max-width: 100%;
+  padding: 3px 6.6667px;
+  background: none;
+  text-align: center;
+  line-height: 13px;
+}
+
+.masthead {
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(
+    to bottom left,#CFECEC
+    50%,#CFECEC 50%
+  ) !important;
+  height: 100vh;
+  }
+
+.react-datepicker-wrapper{
+  width: 100%;
+
+}
+
+.masthead .ui.menu .ui.button,
+.ui.menu a.ui.inverted.button {
+  margin-left: 0.5em;
+}
+
+.masthead h1.ui.header {
+  font-size: 4em;
+  font-weight: normal;
+}
+
+.masthead h2 {
+  font-size: 1.7em;
+  font-weight: normal;
+}
+
+.ui.grid{
+  width: 100%;
+  /*background-color: #a7a7e7;*/
+}
+
+div.ui.segments.activity{
+  display: inline-block;
+  flex-direction: row;
+  width: 250pt;
+  margin-left:2%;
+  justify-content: space-evenly;
+}
+
+div.filterMenuCalendar{
+  display:flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   margin-top: 5%;
+   margin-right: 7%;
+}
+
+button.ui.positive.button.submit{
+  float: right;
+  margin-top: 20px;
+  margin-right: 60px;
+}
+
+div.access{
+  background-image: url("leaf.jpg");
+   width:620px;
+   height: 500px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   margin-right: 5px;
+}
+
+div.inputs{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ui.form input:not([type]),.ui.form input[type=password],.ui.form input[type=text],.ui.form textarea, .ui.form .field>.selection.dropdown{
+  width:500px;
+  margin-left: 60px;
+  border: 2px solid rgba(34, 128, 34, 0.663);
+}
+
+.ui.segment.create{
+  background-image: url('greenplanet.jpg');
+  width: 650px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.ui.active.modal{
+  width: 650px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.ui.image.img {
+  position:fixed; top:0;
+  left: 700px; 
+}
+.ui.header>.image:not(.icon), .ui.header>img{
+  height: 800px;
+  width: 900px;
+}
+
+
+.ui.image.img {
+  position:fixed; top:0%;
+  left: 750px;
+ height: 930px;
+  width: 1050px;
+}
+
+.ui.header>.image:not(.icon), .ui.header>img{
+  
+}
+
+h2.ui.inverted.header.title{
+  font-size:4.5rem;
+  color:green;
+  margin-bottom: 5%;
+}
+
+.ui.huge.inverted.button.accessButton{
+  margin-top: 10%;
+  background-color: orange;
+  margin-left: 3%;
+  width: 250px;
+}
+
+div.description{
+  max-width: 700px!important;
+  line-height: 1.5;
+  color:black;
+}
+
+div.ui.text.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position:fixed;
+  left: 5%;
+}
+
+div.ui.inverted.top.attached.segment.commentSection{
+  text-align: left;
+  font-size: 10pt;
+  height:28pt;
+  background-color: rgb(205, 205, 247);
+}
+
+div.ui.inverted.secondary.top.attached.center.aligned.segment{
+  background-color: rgb(205, 205, 247);
+}
+
+.segment.buttonsActivity{
+  background:none;
+  margin-right: 3%;
+  padding-left:0;
+}
+
+.button.JoinButton{
+  background-color: rgb(176, 176, 236);
+}
+
+button.ui.positive.ui.button.create{
+  border: 2px solid rgba(34, 128, 34, 0.663);
+}
+
+a.ui.button.cancel{
+  border: 2px solid gray;
+}
+
+a.ui.button:hover {
+  transition: 0.9s;
+  background-color: red;
+}
+
+div.ui.red.basic.label{
+  margin-left: 60px;
+  margin-top: 5px;
+  width: 210px;
+}
+ 
+/* img.logo{
+  width: 80px;
+  height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+ */
+
+/* activities */
+
+div.ui.segments.activityy{
+}
+
+.ui.items>.item>.image>img {
+  display: block;
+  width: 230px;
+  height: 140px;     
+}
+
+a.header.titleAc{
+  display: flex;
+  text-align: center;
+  font-size: 1.2em; 
+  color: #f2711c;
+  font-weight: bold;
+}
+
+span.dateAc{
+  font-size: 1.2em; 
+  color:black;
+}
+
+span.venueAc{
+  font-size: 1.2em;
+  color: black; 
+}
+
+span.descriptionAc{
+  font-size: 0.99em;
+  color: black;
+
+}
+
+div.sicteen.wide.column{
+  width: 50px;
+  height:100px;
+}
+
+div.ui.segments.activityy{
+  display: inline-block;
+  flex-direction: row;
+  margin-left:2%;
+  justify-content: space-evenly;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  gap: 0.4rem;
+  padding: 0 2rem;
+  background-color: #FCFCFC ;
+  border-radius: 1rem;
+  width:300px;
+} 
+
+a.ui.orange.right.floated.button.buttonAc{
+  margin-bottom: 10px;
+}
+
+/*.dropdown.menu.dropdown{
+  background-color: red;
+  position: relative;
+  overflow: hidden ;
+}*/
+
+.dropdown.loginItem{
+  margin-top:330pt;
+}
+
+.sidebar.navBar.menu{
+  /* background-image:  linear-gradient(to right,rgb(135,206,235),rgb(135,206,235)); */
+  background-image:  linear-gradient(to right,rgb(37, 150, 190),rgb(37, 150, 190));
+
+  width:600px;
+  height: 500px;
+}
+
+.ui.grid {
+  margin-top: -1rem;
+  margin-bottom: -1rem;
+  margin-left: 12%;
+}
+
+.ui.labeled.icon.menu .item {
+  min-width: 12em;
+  flex-direction: column;
+}
+
+div.profile{
+  margin-left:-10rem;
+}
+
+img.logo{
+  margin-top: 30px;
+  width:250px;
+  height:200px;
+}
+
+.dropdown.loginItem{
+  margin-top:50pt;
+}
+
+
+
+.ui.positive.button, .ui.positive.buttons .button {
+  background-color: orange;
+}
+
+.ui.positive.active.button, .ui.positive.button .active.button:active, .ui.positive.buttons .active.button, .ui.positive.buttons .active.button:active {
+  background-color: rgb(37, 150, 190);
+}
+
+div.content{
+  color: black;
+  align-item: center;
+}
+
+
+.react-calendar__month-view__days__day--weekend {
+  color: rgb(37, 150, 190);
+}
+
+/* div.ui.inverted.top.attached.segment.commentSection {
+  background-color: rgb(205, 205, 247);
+} */
+
+.ui.primary.button, .ui.primary.buttons .button {
+  background-color: #2185d0;
+}
+
+div.ui.segments.actDetail{
+  width: 420px;
+  box-shadow: rgba(0, 0, 0, 0.20) 9px 5px 15px;
+
+}
